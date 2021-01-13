@@ -1,0 +1,186 @@
+body{
+    margin: 20px 70px;
+    padding: 20px 30px;
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+#navbar{
+    background-color: #3086abd4;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+.navi{
+    display: inline-block;
+    margin: 4px 4px;
+    padding: 3px 3px;
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px ;
+    padding: 14px 14px;
+    
+}
+.navi a:hover{
+    background-color: grey;
+    border-radius: 19px;
+}
+#container{
+    /* border: 2px solid red; */
+    margin: 10px 10px;
+    padding: 10px 10px ;
+    display: flex;
+    position: relative;
+}
+.headmenu{
+    background-color: #5ed4cc;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.menu{
+    border: 2px solid black;
+    width: 140px;
+    margin: 10px 10px ;
+    padding: 10px 10px ;
+    list-style: none;
+}
+.menu a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+font: bold;
+}
+.menu a:hover {
+ color: red;
+ background-color: wheat;
+}
+.container{
+    display: flex;
+    position: relative;
+    height: 300px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    margin-top: 30px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    margin: 4px 10px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 14px 10px 10px skyblue;
+}
+.Mproducts{
+    margin-top: 40px;
+    /* display: inline-block; */
+    /* float: right; */
+    /* border: 2px solid red; */
+   text-align: right;
+   padding-right: 20px;
+   padding-top: 20px;
+ 
+}
+.Mproducts a:hover{
+/* font-size: 1.2rem; */
+color:red;
+}
+.mpagein{
+    margin: 10px 10px ;
+    padding: 10px 10px ;
+    text-align: center;
+}
+.mpageimg img{
+    width: 700px;
+    height: 340px;
+    /* align-items: center; */
+}
+img{
+width: 140px;
+height: 140px;
+}
+#inbox{
+    /* border: 2px solid green; */
+    margin: 12px 12px ;
+    padding: 2px 2px;
+}
+#inbox p a:hover{
+  color: red;
+}
+.rs{
+    display: inline-block;
+}
+.ochead{
+    text-align: center;
+    color: wheat;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 4px 4px;
+    margin-top: 40px;
+    padding: 4px 4px;
+}
+#OurClient{
+   justify-content: center;
+    display: flex;
+    /* background-color: skyblue; */
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.client{
+    border: 2px solid red;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 10px grey;
+}
+#footer{
+    justify-content: center;
+}
+
+#footer h2{
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 4px 4px;
+    padding: 4px 4px;
+}
+/* For Contact US page */
+#head{
+    justify-content: center;
+    
+    
+}
+#head h2{
+ background-color: grey;
+ text-align: center;
+ color: wheat;
+ border-radius: 8px;
+ margin: 4px 4px;
+ padding: 4px 4px;
+}
+#fcontactUS{
+    margin: 40px 30px;
+    padding: 30px 30px;
+    text-align: center;
+    justify-content: center;
+}
+#comment{
+    justify-content: right;
+}
+#btn{
+    display: block;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 4px 3px;
+    padding: 4px 3px;
+}
+#btn:hover{
+    cursor: pointer;
+    text-decoration: grey;
+}
